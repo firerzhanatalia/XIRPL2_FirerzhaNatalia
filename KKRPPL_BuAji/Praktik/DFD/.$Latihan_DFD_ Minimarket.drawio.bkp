@@ -1,0 +1,154 @@
+<mxfile host="Electron">
+  <diagram name="DFD 0" id="c2jV1XAHpzN5WgzzNXC2">
+    <mxGraphModel dx="860" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hELq-A3MJLTiFrTNERvl-4" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;perimeter=ellipsePerimeter;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Sistem Minimarket&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="120" x="400" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-6" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Pembeli&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="170" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-27" edge="1" parent="1" source="hELq-A3MJLTiFrTNERvl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="hELq-A3MJLTiFrTNERvl-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-28" connectable="0" parent="hELq-A3MJLTiFrTNERvl-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Transaksi Pembelian" vertex="1">
+          <mxGeometry relative="1" x="0.25" y="-3" as="geometry">
+            <mxPoint x="-83" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-7" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Kasir&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="630" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-8" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Supplier&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="660" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-9" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Pimpinan&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="150" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-10" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Admin&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="410" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-11" edge="1" parent="1" source="hELq-A3MJLTiFrTNERvl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="hELq-A3MJLTiFrTNERvl-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-13" edge="1" parent="1" source="hELq-A3MJLTiFrTNERvl-6" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.083;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" target="hELq-A3MJLTiFrTNERvl-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="280" as="sourcePoint" />
+            <mxPoint x="410" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-14" connectable="0" parent="hELq-A3MJLTiFrTNERvl-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" value="Barang" vertex="1">
+          <mxGeometry relative="1" x="-0.2777" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-15" edge="1" parent="1" source="hELq-A3MJLTiFrTNERvl-4" style="endArrow=classic;html=1;rounded=0;entryX=0.58;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.025;exitY=0.583;exitDx=0;exitDy=0;exitPerimeter=0;" target="hELq-A3MJLTiFrTNERvl-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="280" as="sourcePoint" />
+            <mxPoint x="490" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-16" connectable="0" parent="hELq-A3MJLTiFrTNERvl-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Struk&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2243" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-18" edge="1" parent="1" source="hELq-A3MJLTiFrTNERvl-4" style="endArrow=classic;html=1;rounded=0;entryX=0.88;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" target="hELq-A3MJLTiFrTNERvl-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="220" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-19" connectable="0" parent="hELq-A3MJLTiFrTNERvl-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" value="&lt;font&gt;Laporan Keuangan&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1576" as="geometry">
+            <mxPoint x="-16" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-20" edge="1" parent="1" source="hELq-A3MJLTiFrTNERvl-4" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="hELq-A3MJLTiFrTNERvl-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="50" />
+              <mxPoint x="680" y="50" />
+            </Array>
+            <mxPoint x="469.99999999999994" y="164.96000000000004" as="sourcePoint" />
+            <mxPoint x="610" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-21" connectable="0" parent="hELq-A3MJLTiFrTNERvl-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Laporan Transaksi&lt;div&gt;Penjualan&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0639" as="geometry">
+            <mxPoint x="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-25" edge="1" parent="1" source="hELq-A3MJLTiFrTNERvl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="hELq-A3MJLTiFrTNERvl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-26" connectable="0" parent="hELq-A3MJLTiFrTNERvl-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Transaksi&amp;nbsp;&lt;div&gt;Penjualan&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1398" y="4" as="geometry">
+            <mxPoint x="-21" y="31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-30" edge="1" parent="1" source="hELq-A3MJLTiFrTNERvl-7" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.95;entryY=0.692;entryDx=0;entryDy=0;entryPerimeter=0;" target="hELq-A3MJLTiFrTNERvl-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="95" />
+              <mxPoint x="740" y="263" />
+            </Array>
+            <mxPoint x="440" y="270" as="sourcePoint" />
+            <mxPoint x="770" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-31" connectable="0" parent="hELq-A3MJLTiFrTNERvl-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Laporan Transaksi&amp;nbsp;&lt;div&gt;Pembelian&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.104" as="geometry">
+            <mxPoint x="15" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-32" edge="1" parent="1" source="hELq-A3MJLTiFrTNERvl-4" style="endArrow=classic;html=1;rounded=0;exitX=0.783;exitY=0.892;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.35;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;" target="hELq-A3MJLTiFrTNERvl-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="270" as="sourcePoint" />
+            <mxPoint x="710" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-37" connectable="0" parent="hELq-A3MJLTiFrTNERvl-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Faktur" vertex="1">
+          <mxGeometry relative="1" x="0.0091" y="-3" as="geometry">
+            <mxPoint x="-26" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-35" edge="1" parent="1" source="hELq-A3MJLTiFrTNERvl-8" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.717;entryY=0.958;entryDx=0;entryDy=0;entryPerimeter=0;" target="hELq-A3MJLTiFrTNERvl-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="270" as="sourcePoint" />
+            <mxPoint x="487" y="297" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-38" connectable="0" parent="hELq-A3MJLTiFrTNERvl-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Barang" vertex="1">
+          <mxGeometry relative="1" x="-0.2564" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-42" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.36;exitY=0.04;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.283;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" target="hELq-A3MJLTiFrTNERvl-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="431.96" y="440" as="sourcePoint" />
+            <mxPoint x="430" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-44" connectable="0" parent="hELq-A3MJLTiFrTNERvl-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="input&amp;nbsp;&lt;div&gt;Data Barang&lt;div&gt;Data Kasir&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5835" y="3" as="geometry">
+            <mxPoint x="-7" y="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-43" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.61;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.575;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="298.03999999999996" as="sourcePoint" />
+            <mxPoint x="482" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hELq-A3MJLTiFrTNERvl-45" connectable="0" parent="hELq-A3MJLTiFrTNERvl-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Data barang&lt;div&gt;Data Kasir&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.211" as="geometry">
+            <mxPoint y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
