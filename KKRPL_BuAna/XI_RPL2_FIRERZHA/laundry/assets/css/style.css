@@ -1,0 +1,806 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #19324d;
+    background: #ffffff;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar-custom {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 20px 0;
+    transition: 0.4s;
+}
+
+.navbar-custom.scrolled {
+    background: rgba(255,255,255,0.95);
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+    padding: 12px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.logo span:last-child {
+    color: #78d7ee;
+}
+
+.logo-icon {
+    margin-right: 5px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.nav-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.navbar-custom.scrolled .nav-menu a {
+    color: #19324d;
+}
+
+.nav-menu a:hover {
+    color: #62cde5 !important;
+}
+
+.btn-login {
+    padding: 10px 23px;
+    border-radius: 30px;
+    background: #ffffff;
+    color: #267aa1 !important;
+    font-weight: bold;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(
+        135deg,
+        #207ca5,
+        #48b6d3,
+        #91e3ed
+    );
+    display: flex;
+    align-items: center;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.hero-text {
+    width: 53%;
+    color: white;
+    animation: fadeUp 1s ease forwards;
+}
+
+.small-title {
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.hero h1 {
+    font-size: 58px;
+    line-height: 1.1;
+    margin: 0 0 25px;
+    font-weight: 800;
+}
+
+.hero h1 span {
+    color: #d9fbff;
+}
+
+.hero p {
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 520px;
+    opacity: 0.9;
+}
+
+.hero-buttons {
+    margin-top: 35px;
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary-custom,
+.btn-secondary-custom {
+    display: inline-block;
+    padding: 14px 27px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-primary-custom {
+    background: white;
+    color: #227ca2;
+    font-weight: bold;
+}
+
+.btn-primary-custom:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+    text-decoration: none;
+}
+
+.btn-secondary-custom {
+    border: 1px solid rgba(255,255,255,0.7);
+    color: white;
+}
+
+.btn-secondary-custom:hover {
+    background: white;
+    color: #227ca2;
+    text-decoration: none;
+}
+
+.hero-info {
+    display: flex;
+    gap: 45px;
+    margin-top: 50px;
+}
+
+.hero-info strong {
+    display: block;
+    font-size: 22px;
+}
+
+.hero-info small {
+    opacity: 0.8;
+}
+
+
+/* =========================
+   WASHING MACHINE
+========================= */
+
+.hero-visual {
+    width: 42%;
+    height: 480px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.washing-machine {
+    width: 270px;
+    height: 370px;
+    background: #f7fcff;
+    border-radius: 25px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.18);
+    animation: floating 4s ease-in-out infinite;
+    padding: 25px;
+}
+
+.machine-top {
+    height: 8px;
+    width: 50px;
+    border-radius: 10px;
+    background: #54bfdc;
+    margin: auto;
+}
+
+.machine-body {
+    margin-top: 25px;
+}
+
+.machine-panel {
+    height: 45px;
+    background: #dff5fa;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    gap: 7px;
+}
+
+.machine-panel span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #4aaeca;
+}
+
+.machine-door {
+    width: 190px;
+    height: 190px;
+    margin: 30px auto;
+    border-radius: 50%;
+    background: #bcecf5;
+    padding: 15px;
+}
+
+.door-glass {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background: linear-gradient(
+        145deg,
+        #78d9e8,
+        #277fa5
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shirt {
+    font-size: 65px;
+    color: white;
+    animation: rotate 5s linear infinite;
+}
+
+
+/* =========================
+   FLOATING CARDS
+========================= */
+
+.floating-card {
+    position: absolute;
+    background: white;
+    color: #23435b;
+    padding: 15px 20px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    font-size: 13px;
+    z-index: 3;
+}
+
+.card-one {
+    top: 90px;
+    left: 20px;
+    animation: floating 3s ease-in-out infinite;
+}
+
+.card-two {
+    right: 10px;
+    bottom: 80px;
+    animation: floating 3.5s ease-in-out infinite;
+}
+
+.card-one span {
+    color: #36bf8a;
+    font-weight: bold;
+}
+
+
+/* =========================
+   BUBBLES
+========================= */
+
+.bubble {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.18);
+    animation: bubbleUp 7s linear infinite;
+}
+
+.bubble-1 {
+    width: 40px;
+    height: 40px;
+    left: 8%;
+    bottom: -50px;
+}
+
+.bubble-2 {
+    width: 70px;
+    height: 70px;
+    left: 30%;
+    bottom: -100px;
+    animation-delay: 2s;
+}
+
+.bubble-3 {
+    width: 25px;
+    height: 25px;
+    right: 30%;
+    bottom: -50px;
+    animation-delay: 4s;
+}
+
+.bubble-4 {
+    width: 90px;
+    height: 90px;
+    right: 10%;
+    bottom: -120px;
+    animation-delay: 1s;
+}
+
+
+/* =========================
+   SECTION
+========================= */
+
+.section {
+    padding: 100px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title span,
+.section-label {
+    color: #3aaecb;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.section-title h2 {
+    font-size: 38px;
+    line-height: 1.3;
+    margin: 15px 0;
+    color: #19324d;
+}
+
+.section-title h2 b,
+.about-text h2 b,
+.cta h2 b {
+    color: #32aac9;
+}
+
+.section-title p {
+    color: #7890a3;
+}
+
+
+/* =========================
+   SERVICE
+========================= */
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.service-card {
+    padding: 35px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0 10px 35px rgba(30,100,130,0.08);
+    border: 1px solid #edf6f9;
+    transition: 0.4s;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.service-card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 45px rgba(30,100,130,0.14);
+}
+
+.service-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 17px;
+    background: #e4f8fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+
+.service-card h3 {
+    color: #19324d;
+}
+
+.service-card p {
+    color: #7a91a2;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   ABOUT
+========================= */
+
+.about-section {
+    background: #f2fbfd;
+    padding: 100px 0;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.about-visual {
+    width: 45%;
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: 0.8s;
+}
+
+.about-visual.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.about-circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background: #c8f1f7;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shirt-icon {
+    font-size: 100px;
+    animation: floating 3s ease-in-out infinite;
+}
+
+.about-text {
+    width: 50%;
+    opacity: 0;
+    transform: translateX(30px);
+    transition: 0.8s;
+}
+
+.about-text.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.about-text h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin: 18px 0;
+}
+
+.about-text p {
+    color: #71899b;
+    line-height: 1.8;
+}
+
+.check-list {
+    margin-top: 25px;
+}
+
+.check-list div {
+    margin: 15px 0;
+    color: #496679;
+}
+
+.check-list span {
+    color: #32b89a;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+/* =========================
+   STEPS
+========================= */
+
+.steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step {
+    text-align: center;
+    max-width: 220px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.7s;
+}
+
+.step.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.step-number {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #e5f8fc;
+    color: #2da5c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-weight: bold;
+}
+
+.step h3 {
+    margin-top: 20px;
+}
+
+.step p {
+    color: #7890a3;
+    line-height: 1.6;
+}
+
+.step-line {
+    width: 100px;
+    height: 2px;
+    background: #d5eef3;
+}
+
+
+/* =========================
+   CTA
+========================= */
+
+.cta {
+    padding: 40px 0 100px;
+}
+
+.cta-box {
+    background: linear-gradient(
+        135deg,
+        #1d7da4,
+        #47b9d3
+    );
+    padding: 55px 65px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.cta-box span {
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.cta h2 {
+    font-size: 35px;
+    margin: 12px 0 0;
+}
+
+.cta h2 b {
+    color: #d5f9ff;
+}
+
+.cta-button {
+    background: white;
+    color: #237ea5;
+    padding: 15px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    transform: translateY(-4px);
+    text-decoration: none;
+    color: #237ea5;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background: #132c43;
+    padding: 45px 0;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    color: white;
+}
+
+footer p {
+    color: #9cb1c1;
+    margin-top: 10px;
+}
+
+.footer-right {
+    color: #9cb1c1;
+}
+
+
+/* =========================
+   ANIMATION
+========================= */
+
+@keyframes fadeUp {
+
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes floating {
+
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+}
+
+@keyframes rotate {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+@keyframes bubbleUp {
+
+    0% {
+        transform: translateY(0) scale(0.5);
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-100vh) scale(1);
+        opacity: 0;
+    }
+
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    .nav-menu a:not(.btn-login) {
+        display: none;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 120px;
+    }
+
+    .hero-text,
+    .hero-visual {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        margin: auto;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-info {
+        justify-content: center;
+    }
+
+    .hero-visual {
+        height: 420px;
+    }
+
+    .service-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .about-visual,
+    .about-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .steps {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .step-line {
+        width: 2px;
+        height: 50px;
+    }
+
+    .cta-box {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+}
